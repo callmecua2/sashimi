@@ -3,7 +3,6 @@ import instagram from "../../assets/contact/instagram.png"
 import phone from "../../assets/contact/phone.png"
 
 
-
 const Footer = () => {
     return (
       <footer className=" w-full relative flex mt-8 flex-col justify-center items-center">
