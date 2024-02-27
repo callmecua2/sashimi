@@ -70,7 +70,7 @@ function App() {
   return (
     <>
        <div className="navbar">
-        <h2 className="navbar-title" onClick={()=>window.location.reload()}>Sushiku</h2>
+        <h2 className="navbar-title" onClick={()=>window.location.reload()}>Sashimi</h2>
         <img
           src={settings}
           id="open-tab-button"
