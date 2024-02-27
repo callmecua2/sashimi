@@ -1,10 +1,14 @@
+import sushiwide from "../../assets/img/sushiwide.jpg"
+import salmon from "../../assets/img/salmon.jpg"
+import ramen from "../../assets/img/ramen.jpg"
+
 
 const Widget = () => {
     return (
       <>
         <div className=" widget seafood w-11/12 lg:w-3/4 lg:mb-0 mb-5 relative flex justify-center items-center">
           <img
-            src="src/assets/img/sushiwide.jpg"
+            src={sushiwide}
             className=" w-full h-full object-cover object-center"
             alt="image"
           />
@@ -20,7 +24,7 @@ const Widget = () => {
         </div>
         <div className=" widget onigiri bg-white w-11/12 lg:w-3/4 lg:mb-0 mb-5 relative flex justify-center items-center">
           <img
-            src="src/assets/img/salmon.jpg"
+            src={salmon}
             className=" w-full h-full object-cover object-center"
             alt="image"
           />
@@ -36,7 +40,7 @@ const Widget = () => {
         </div>
         <div className=" widget ramen w-11/12 lg:w-3/4 relative flex justify-center items-center">
           <img
-            src="src/assets/img/ramen.jpg"
+            src={ramen}
             className=" w-full h-full object-cover object-center"
             alt="image"
           />
