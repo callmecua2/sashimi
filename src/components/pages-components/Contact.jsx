@@ -1,3 +1,5 @@
+import phone from "../../assets/contact/phone.png"
+
 const Contact = () => {
   return (
     <div className="booking-tab w-full lg:w-1/2 flex flex-col justify-start items-center mt-20 pb-5 xl:h-1/2 xl:items-start bg-white ">
@@ -18,7 +20,7 @@ const Contact = () => {
         <div className="phone-icon w-full h-1/4 flex mt-20 md:w-3/4 ">
           <div className="phone-img w-1/4 h-full flex justify-center items-center ">
             <img
-              src="src/assets/contact/phone.png"
+              src={phone}
               className=" w-3/5 md:w-1/2 lg:w-3/4 xl:w-2/4 h-1/2 lg:h-full object-cover object-center"
               alt="image"
             />
@@ -32,7 +34,7 @@ const Contact = () => {
         <div className="corporate-phone-icon flex w-full md:w-3/4 h-1/4 mt-10 ">
           <div className="phone-img w-1/4 h-full flex justify-center items-center ">
             <img
-              src="src/assets/contact/phone.png"
+              src={phone}
               className=" w-3/5 md:w-1/2 h-1/2 lg:w-3/4 xl:w-2/4  lg:h-full object-cover object-center"
               alt=""
             />

@@ -1,3 +1,6 @@
+import food9 from "../../assets/food/food9.jpg"
+import salmon from "../../assets/img/salmon.jpg"
+
 
 const About = () => {
     return (
@@ -25,14 +28,14 @@ const About = () => {
         <div className="about-image w-full h-80 flex justify-center mt-6 lg:w-3/5 lg:h-96">
           <div className="left-img about-img xl:w-2/5">
             <img
-              src="src/assets/food/food9.jpg"
+              src={food9}
               className=" w-full h-full object-cover object-center"
               alt="image"
             />
           </div>
           <div className="right-img about-img xl:w-2/5">
             <img
-              src="src/assets/img/salmon.jpg"
+              src={salmon}
               className=" w-full h-full object-cover object-center"
               alt="image"
             />

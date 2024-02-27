@@ -1,4 +1,5 @@
 import operational from "../operational";
+import food4 from "../../assets/food/food4.jpg"
 
 const Operationalday = () => {
   const filterdays = operational.filter((day) => day.id);
@@ -30,7 +31,7 @@ const Operationalday = () => {
       </div>
       <div className="some-ads w-full h-96 mt-8 lg:w-1/2 lg:h-[32rem] xl: xl:w-2/6 xl:ml-5">
         <img
-          src="src/assets/food/food4.jpg"
+          src={food4}
           className=" w-full h-full object-cover object-center"
           alt="image"
         />

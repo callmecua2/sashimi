@@ -1,3 +1,5 @@
+import food9 from "../../assets/food/food9.jpg"
+
 const Advertisment = () => {
     return (
       <div className="ads w-full flex justify-center flex-col items-center mt-20 lg:flex-row lg:gap-5 ">
@@ -47,7 +49,7 @@ const Advertisment = () => {
   
         <div className="menu-picture w-10/12 mt-20 h-96 lg:w-2/3 xl:w-2/5 lg:h-[32rem] lg:mt-0  bg-black ">
           <img
-            src="src/assets/food/food9.jpg"
+            src={food9}
             className=" w-full h-full object-cover object-center"
             alt="food"
           />
