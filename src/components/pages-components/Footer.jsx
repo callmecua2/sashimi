@@ -20,7 +20,7 @@ const Footer = () => {
               alt="feane"
             />
             <img
-              src="../contact/phone.png"
+              src="./components/contact/phone.png"
               className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10"
               alt="feane"
             />
