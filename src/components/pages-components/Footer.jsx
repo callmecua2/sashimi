@@ -1,3 +1,7 @@
+import email from "../contact/email.png"
+import instagram from "../contact/instagram.png"
+import phone from "../contact/phone.png"
+
 
 const Footer = () => {
     return (
@@ -10,17 +14,17 @@ const Footer = () => {
           <hr className="w-1/4 mb-10 h-1 rounded-full bg-red-500" />
           <div className="social-media w-full flex justify-center items-center">
             <img
-              src="../contact/email.png"
+              src={email}
               className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10 "
               alt="feane"
             />
             <img
-              src="../contact/instagram.png"
+              src={instagram}
               className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10 ml-8 mr-8"
               alt="feane"
             />
             <img
-              src="./components/contact/phone.png"
+              src={phone}
               className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10"
               alt="feane"
             />
